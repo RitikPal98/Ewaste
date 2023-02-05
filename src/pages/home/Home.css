@@ -1,0 +1,33 @@
+.home-info-container{
+    padding: 10px 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 20px 4px;    
+    /* flex-wrap: wrap; */
+}
+.home-images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home-info-container-info{
+    box-sizing: border-box;
+    max-width: 600px;
+
+}
+
+.home-images-container>*{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: 250ms ease;
+    box-shadow: 1px 1px 4px #333;
+    margin: 10px;
+}
+.home-images-container>*:hover{
+    transform: scale(1.07);
+    box-shadow: 2px 2px 7px #777;
+}
+
