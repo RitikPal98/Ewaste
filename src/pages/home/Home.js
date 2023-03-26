@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Slider from "../../components/Slider";
+import WorksCard from "../../components/WorksCard";
 import "./Home.css";
 function Home() {
   return (
@@ -27,11 +28,13 @@ function Home() {
           </p>
         </div>
         <div className="home-images-container">
-          <img src="images/2.jpg" alt="" />
-          <img src="images/1.jpg" alt="" />
-          <img src="images/3.webp" alt="" />
-          <img src="images/4.jpg" alt="" />
+            <img src="images/4.jpg" alt="" />
         </div>
+      </div>
+      <div className="home-card-container">
+        <WorksCard />
+        <WorksCard />
+        <WorksCard />
       </div>
       <Footer />
     </div>

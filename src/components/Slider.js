@@ -8,7 +8,7 @@ function Slider() {
         <Carousel 
         autoPlay={true}
         infiniteLoop={true}
-        interval={2000}
+        interval={4000}
         axis='horizontal'
         showThumbs={false}
         dynamicHeight={false}
