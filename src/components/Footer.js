@@ -11,14 +11,14 @@ function Footer() {
   return (
     <div className='footer'>
         
-        <h2>Contact Us</h2>
+        <h2 className='footer-headline'>Contact Us</h2>
         <div className='footer-location'>
         <LocationOnIcon />
-        <p>this is the location</p>
+        <p>gadget grave center </p>
         </div>
         <div className='footer-email'>
         <EmailIcon />
-        <p>this is the mail</p>
+        <p>gadgetgrave@email.com</p>
         </div>
         
         <div className='footer-social'>

@@ -3,7 +3,7 @@ import "./Header.css"
 function Header() {
   return (
     <div className='header'>
-        <h1>Gadget Grave</h1>
+        <h1 className='header-logo'>Gadget Grave</h1>
         </div>
   )
 }

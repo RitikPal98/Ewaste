@@ -15,7 +15,6 @@
 
 .home-images-container>img{
     border-radius: 4px;
-    overflow: hidden;
     margin: 10px;
     box-shadow: 1px 0px 2px #333;
 
@@ -27,19 +26,17 @@
     transition: 250ms ease;
 
 }
-
-/* testimonial css */
 .home-images-container>img:hover{
     transform: scale(1.07);
     box-shadow: 2px 2px 7px #777;
 }
-
+/* testimonial css */
 .home-card-container{
     display: flex;
     justify-content: space-evenly;
     margin: 100px 0;
     border: 1px solid #ccc;
-    padding: 100px 0;
+    padding: 70px 10px 50px 10px;
     border-left: none;
     border-right: none;
     background-color: rgb(247,248,249);
@@ -47,10 +44,9 @@
 .works-card{
     display: flex;
     flex-direction: column;
-    max-width: 310px;
-    /* height: 400px; */
-    height: 100%;
-    padding: 20px 14px;
+    max-width: 280px;
+    height: auto;
+    padding: 0px 14px;
     align-items: center;
     border: 1px solid #ccc;
     border-radius:  4px;
@@ -60,23 +56,30 @@
 }
 .works-card:hover{
     transform: scale(1.05);
-    box-shadow: 1px 2px 10px #777;
+    /* box-shadow: 1px 2px 10px #777; */
 }
 .works-card-thumb{
-    width: 120px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     overflow: hidden;
     position: relative;
-    top: -40px;
-    border-radius: 4px;
+    top: -50px;
+    border-radius: 100%;
 }
 .works-card-thumb>img{
-    height: 100px;
-    width: 120px;
-    object-fit: cover;
+    object-fit: fill;
+    width: 100%;
+    height: auto;
 }
-
+.work-card-bottom{
+    position: relative;
+    top: -50px;
+}
 .works-card-title{
     width: 100%;
-    padding: 10px 0;
+    padding: 4px 0;
+    color: #333;
+}
+.works-card-info{
+    color: #666;
 }

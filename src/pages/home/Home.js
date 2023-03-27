@@ -32,9 +32,9 @@ function Home() {
         </div>
       </div>
       <div className="home-card-container">
-        <WorksCard />
-        <WorksCard />
-        <WorksCard />
+        <WorksCard image="images/avatar.jpg" name="Sunder Pichai" comment="" />
+        <WorksCard image="images/avatar2.jpg" name="Elon Musk" comment="" />
+        <WorksCard image="images/avatar3.jpg" name="Ratan Tata" comment="" />
       </div>
       <Footer />
     </div>
