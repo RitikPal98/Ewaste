@@ -1,0 +1,33 @@
+.workshow-card-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin: 160px 0;
+}
+.workshow-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px 4px;
+}
+.workshow-card-container>:nth-child(even){
+    flex-direction: row-reverse;
+}
+.workshow-img-container{
+    max-height: 250px;
+    max-width: 400px;
+    overflow: hidden;
+    /* border-radius: 4px; */
+    box-shadow: 1px 3px 7px #ccc;
+
+}
+.workshow-img-container>img{
+    width: 100%;
+    height: auto;
+}
+
+.workshow-card-info{
+    max-width: 600px;
+    color: #333;
+}

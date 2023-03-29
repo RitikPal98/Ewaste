@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Slider from "../../components/Slider";
 import WorksCard from "../../components/WorksCard";
 import "./Home.css";
+import Workshow from "./Workshow";
 function Home() {
   return (
     <div>
@@ -31,6 +32,7 @@ function Home() {
             <img src="images/4.jpg" alt="" />
         </div>
       </div>
+      <Workshow />
       <div className="home-card-container">
         <WorksCard image="images/avatar.jpg" name="Sunder Pichai" comment="" />
         <WorksCard image="images/avatar2.jpg" name="Elon Musk" comment="" />
