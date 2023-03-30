@@ -1,0 +1,59 @@
+.imagebox{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 10px;
+    background-color: #222;
+    padding: 60px 0;
+    background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
+}
+
+.imagebox-img-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+}
+.imagebox-img-container-2>img{
+    width: 49%;
+    transition: 250ms ease;
+}
+.imagebox-img-container-2>img:hover{
+    transform: scale(1.05);
+    box-shadow: 1px 2px 4px #333;
+}
+
+.imagebox-img-container{
+    width: 400px;
+    margin: 0 7px;
+    transition: 250ms ease;
+}
+.imagebox-img-container:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 2px 4px #333;
+
+}
+
+.imagebox-img-container>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:800px){
+    .imagebox{
+        flex-wrap: wrap;
+    }   
+    .imagebox-img-container{
+        width: 400px;
+        margin: 7px 1px;
+        transition: 250ms ease;
+    }
+
+    .imagebox-img-container-2>img{
+        width: 49%;
+        margin: 4px 0;
+    }
+}

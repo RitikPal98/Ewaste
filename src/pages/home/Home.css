@@ -5,12 +5,21 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-top:1px solid whitesmoke ;
+    align-items: center;
 }
 
 .home-info-container-info{
     box-sizing: border-box;
     max-width: 600px;
-
+}   
+.home-info-container-info>h1{
+    color: #333;
+    font-size: 2.7rem !important;
+    padding: 11px 0;
+}
+.home-info-container-info>p{
+    color: #444;
+    /* font-size: 1.1rem; */
 }
 
 .home-images-container>img{
@@ -18,8 +27,6 @@
     margin: 10px;
     box-shadow: 1px 0px 2px #333;
 
-}
-.home-images-container>img{
     max-width: 500px;
     width: 100%;
     height:auto;
@@ -30,13 +37,18 @@
     transform: scale(1.07);
     box-shadow: 2px 2px 7px #777;
 }
+
+
+
+
+
 /* testimonial css */
+
 .home-card-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 100px 0;
     border: 1px solid #ccc;
-    padding: 70px 10px 50px 10px;
+    padding: 100px 10px 80px 10px;
     border-left: none;
     border-right: none;
     background-color: rgb(247,248,249);
@@ -82,4 +94,13 @@
 }
 .works-card-info{
     color: #666;
+}
+
+@media (max-width:750px){
+    .home-card-container{
+        flex-wrap: wrap;
+    }   
+.works-card{
+    margin:30px 0;
+}
 }
