@@ -14,8 +14,8 @@ function Home() {
       <Slider />
       <About />
       <Workshow />
-      <ImageBox />
       <Testimonials />
+      <ImageBox />
       <Footer />
     </div>
   );

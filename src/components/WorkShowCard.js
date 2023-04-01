@@ -1,6 +1,6 @@
 import React from 'react'
 
-function WorkShowCard({img,info}) {
+function WorkShowCard({img,title,info}) {
   return (
     <>
         <div className="workshow-card">
@@ -11,12 +11,8 @@ function WorkShowCard({img,info}) {
             
             </div>
             <div className='card-info-container'>
-            <p className='workshow-card-info'>            that these devices are disposed of in an environmentally responsible
-            manner. The site offers easy and secure data destruction services,
-            ensuring that personal and sensitive information is protected. With
-            Gadget Grave, you can do your part in protecting the environment and
-            ensuring that personal and sensitive information is protected. With
-            Gadget Grave, you can do your part in protecting the environment and
+              <h4>{title}</h4>
+            <p className='workshow-card-info'>{info}
            </p>
             </div>
         </div>

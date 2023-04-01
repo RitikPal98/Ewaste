@@ -24,6 +24,11 @@
     width: 100%;
     height: auto;
 }
+.card-info-container>h4{
+    color: #333;
+    padding: 4px 0;
+    font-size: 1.2rem;
+}
 
 .workshow-card-info{
     max-width: 600px;

@@ -13,13 +13,7 @@ function WorksCard({image,name,comment}) {
       </div>
       <div className="works-card-info">
         <p>
-          Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna
-          dictum porta. Donec rutrum congue leo eget malesuada. Nulla quis lorem
-          ut libero malesuada feugiat. Vivamus suscipit tortor eget felis
-          porttitor volutpat.
-          dictum porta. Donec rutrum congue leo eget malesuada. Nulla quis lorem
-          ut libero malesuada feugiat. Vivamus suscipit tortor eget felis
-          porttitor volutpat.
+{comment}
           
         </p>
       </div>

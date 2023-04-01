@@ -15,19 +15,19 @@ function Slider() {
         showIndicators={false}
         >
                 <div>
-                    <img src="images/1.jpg" alt="banner" />
+                    <img src="images/a1.jpg" alt="banner" />
                     {/* <p className="legend">Legend 1</p> */}
                 </div>
                 <div>
-                    <img src="images/2.jpg" alt="banner" />
+                    <img src="images/1.jpg" alt="banner" />
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
                 <div>
-                    <img src="images/5.jpg" alt="banner" />
+                    <img src="images/l1.jpg" alt="banner" />
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
                 <div>
-                    <img src="images/6.jpg" alt="banner" />
+                    <img src="images/b1.jpg" alt="banner" />
                     {/* <p className="legend">Legend 3</p> */}
                 </div>
             </Carousel>
