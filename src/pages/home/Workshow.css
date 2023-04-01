@@ -1,8 +1,23 @@
+.workshow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.workshow>h1{
+    margin-left: 9%;
+    font-size: 2.4rem;
+    color: #222;
+}
+
 .workshow-card-container{
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
     margin: 100px 0;
+    width: 100%;
+    margin-top: 0;
 }
 .workshow-card{
     display: flex;

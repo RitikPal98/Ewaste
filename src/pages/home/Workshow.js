@@ -4,6 +4,7 @@ import "./Workshow.css"
 function Workshow() {
   return (
     <div className='workshow'>
+      <h1>What We Want</h1>
         <div className="workshow-card-container">
         <WorkShowCard img="images/i4.jpg" title="Increase e-waste collection" info="our organization's primary goal is to increase the amount of e-waste that we collect. This is crucial because the more electronic waste we are able to collect, the greater our impact will be on reducing the harmful environmental effects of e-waste." />
         <WorkShowCard img="images/i3.jpg" title="Environmental impact" info="Our aim is to reduce the negative impact of e-waste on the environment. By collecting and properly disposing of e-waste, we can prevent toxic substances from polluting the air, soil, and water. Additionally, recycling e-waste reduces the need for raw materials and conserves natural resources." />
