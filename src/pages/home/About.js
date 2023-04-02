@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="home-info-container">
+    <div id="about" className="home-info-container">
     <div className="home-info-container-info">
       <h1>Who we are</h1>
       <p>
@@ -16,7 +16,7 @@ By choosing to recycle your e-waste with us, you are not only helping to protect
       </p>
     </div>
     <div className="home-images-container">
-        <img src="images/b.jpg" alt="" />
+        <img src="images/b.jpg" alt="banner" />
     </div>
   </div>
   )

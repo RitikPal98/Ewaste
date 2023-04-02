@@ -25,11 +25,13 @@
     padding: 10px;
     margin: 10px 0;
 }
-.footer-social>*{
+.footer-social>a>*{
     margin: 0 10px;
     font-size: 2.2rem !important;
     cursor: pointer;
     transition: 200ms ease !important;
+    text-decoration: none;
+    color: white;
 }
 .footer-social>*:hover{
     transform: scale(1.17);

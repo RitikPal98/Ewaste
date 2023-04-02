@@ -28,17 +28,27 @@
 .workshow-card-container>:nth-child(even){
     flex-direction: row-reverse;
 }
+
 .workshow-img-container{
     /* max-height: 400px; */
     max-width: 350px;
     /* overflow: hidden; */
     /* border-radius: 4px; */
     /* box-shadow: 1px 3px 7px #ccc; */
+    position: relative;
+    transition: 1s ease;
+
 }
 .workshow-img-container>img{
     width: 100%;
     height: auto;
 }
+.card-info-container{
+    position: relative;
+    /* right: -800px; */
+    transition: 1s ease;
+}
+
 .card-info-container>h4{
     color: #333;
     padding: 4px 0;
@@ -48,4 +58,10 @@
 .workshow-card-info{
     max-width: 600px;
     color: #333;
+}
+@media (max-width:750px){
+    .workshow{
+        padding-left: 10px;
+        width: 99%;
+    }    
 }
