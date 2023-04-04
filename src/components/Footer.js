@@ -6,9 +6,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 // import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-// https://twitter.com/gadgetgrave2023
 function Footer() {
   return (
     <div id="contact" className="footer">
@@ -23,7 +22,7 @@ function Footer() {
       </div>
 
       <div className="footer-social">
-        <a href="">
+        <a href="https://www.linkedin.com/in/ewaste-drive-574702270/">
           <LinkedInIcon />
         </a>
         <a href="https://www.instagram.com/gadgetgrave2023/">

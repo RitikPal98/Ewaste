@@ -48,6 +48,9 @@
 @media (max-width:800px){
     .imagebox{
         flex-wrap: wrap;
+        padding: 10px;
+        box-sizing: border-box;
+        zoom: 0.81;
     }   
     .imagebox-img-container{
         width: 400px;
